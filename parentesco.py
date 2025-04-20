@@ -1,6 +1,13 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+
+'''Crie um grafo G não direcionado que representa suas relações familiares (pais, irmãos e avós). 
+Cada vértice do grafo deve ser representado pelo nome e sobrenome. 
+Atribua pesos às arestas de acordo com as seguintes relações de parentesco entre os membros da sua família: peso 1,
+se for uma relação consaguínea e peso 0.5 se for uma relação civil.
+Ao final, calcule qual é o grau do vértice que te representa e desenhe o grafo na tela.'''
+
 # Criar um grafo vazio
 G = nx.Graph()
 
