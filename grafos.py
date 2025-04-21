@@ -54,7 +54,7 @@ print("Todas as arestas conectadas ao vértice 33:", arestas_conectadas)
 
 
 # Desenha o grafo com tamanho 12x7
-plt.figure(figsize=(12, 7))
+plt.figure(figsize=(10, 5))
 pos = nx.spring_layout(G, k=0.1) 
 # nx.draw(G, pos, node_size=50, arrows=True, with_labels=False)
 nx.draw(
